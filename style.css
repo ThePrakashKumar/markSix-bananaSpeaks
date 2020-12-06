@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+
+:root{
+    --primary-color: #fbde44;
+    --secondary-color: #f65058;
+    --tertiary-color: #25334a;
+    --main-background: rgb(248, 248, 248); 
+}
+
+body{
+    margin: 0;
+    background-color: var(--main-background);
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Navbar */
+#nav{
+    background: var(--primary-color);
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(246,80,88);
+    background: linear-gradient(90deg, rgba(246,80,88,1) 0%, rgba(251,222,68,1) 100%);
+}
+
+#nav-heading{
+    font-weight: 600;
+    font-size: 1.8rem;  
+}
+
+/* Input div */
+
+#form-txt-input{
+    display: block;
+    margin: 40px auto 0 auto;
+    height: 20vh;
+    width: 60vw;
+    min-width: 400px;
+    max-width: 600px;
+    border: solid 2px var(--tertiary-color);
+    outline: none;
+}
+
+#form-btn- {
+    /* width: 100vw; */
+    
+}
+
+#form-btn-translate{
+    background: var(--main-background);
+    display: block;
+    margin: 15px auto;
+    border: 2px solid var(--primary-color);
+    padding: 15px;
+    font-size: 1.1rem;
+    outline: none;
+    transition: all 0.5s;
+    /* box-shadow: 5px 5px 0px 0px var(--tertiary-color); */
+}
+
+#form-btn-translate:hover {
+    background-color: var(--primary-color);
+  }
+
+/* Output Div */
+
+#output-heading{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-top: 20px;
+    text-shadow: 1px 1px var(--secondary-color);
+}
+
+#output-div{
+    display: block;
+    margin: 10px auto;
+    height: 20vh;
+    width: 60vw;
+    min-width: 400px;
+    max-width: 600px;
+    background: white;
+    border: solid 2px var(--tertiary-color);
+}
+
+/* footer */
+#about{
+    position: fixed;
+    bottom: 0;
+    background: var(--primary-color);
+    font-size: 1.25rem;
+}
+
+#about-container{
+     width: 80%;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 30px;
+}
+#about p{
+    margin: 0;
+}
+
+/* TO DO */
+/* Add fallback font */
