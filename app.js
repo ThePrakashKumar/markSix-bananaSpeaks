@@ -13,7 +13,8 @@ function getTranslationgURL(text){
 
 // If somehting went wrong then tell the user
 function errorHandler(error){
-    alert("There must be somthing wrong!"+error);
+    console.log(error);
+    alert("There must be somthing wrong!");
 }
 
 // Make API request and hendle the respose
