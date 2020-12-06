@@ -17,7 +17,7 @@ body{
 /* Navbar */
 #nav{
     background: var(--primary-color);
-    height: 8vh;
+    height: 9vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,6 @@ body{
 }
 
 /* Input div */
-
 #form-txt-input{
     display: block;
     margin: 40px auto 0 auto;
@@ -43,11 +42,6 @@ body{
     outline: none;
 }
 
-#form-btn- {
-    /* width: 100vw; */
-    
-}
-
 #form-btn-translate{
     background: var(--main-background);
     display: block;
@@ -57,7 +51,6 @@ body{
     font-size: 1.1rem;
     outline: none;
     transition: all 0.5s;
-    /* box-shadow: 5px 5px 0px 0px var(--tertiary-color); */
 }
 
 #form-btn-translate:hover {
@@ -65,7 +58,6 @@ body{
   }
 
 /* Output Div */
-
 #output-heading{
     text-align: center;
     font-size: 1.4rem;
@@ -94,14 +86,20 @@ body{
 }
 
 #about-container{
-     width: 80%;
+     width: 70%;
      margin-left: auto;
      margin-right: auto;
      padding: 30px;
 }
+
+#about-heading{
+    font-weight: 600;
+    color: var(--tertiary-color);
+}
+
 #about p{
     margin: 0;
 }
 
 /* TO DO */
-/* Add fallback font */
+/* Make Responsive */

@@ -4,7 +4,7 @@ let button=document.querySelector("#form-btn-translate");
 let outputDiv=document.querySelector("#output-div");
 
 
-let serverURL="https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
+let serverURL="https://api.funtranslations.com/translate/minion.json";
 
 // Take input from textarea and make url to make request
 function getTranslationgURL(text){
@@ -12,8 +12,8 @@ function getTranslationgURL(text){
 }
 
 // If somehting went wrong then tell the user
-function errorHandler(){
-    alert("There must be somthing wrong!");
+function errorHandler(error){
+    alert("There must be somthing wrong!"+error);
 }
 
 // Make API request and hendle the respose
@@ -21,7 +21,7 @@ function clickHandler(){
     let inputText=textArea.value;
     fetch(getTranslationgURL(inputText))
         .then(respone => respone.json())
-        .then(json => outputdiv.textContent=json.contents.text)
+        .then(json => outputDiv.textContent=json.contents.translated)
         .catch(errorHandler);
 }
 
