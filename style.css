@@ -50,7 +50,7 @@ body{
     padding: 15px;
     font-size: 1.1rem;
     outline: none;
-    transition: all 0.5s;
+    transition: background-color 0.5s;
 }
 
 #form-btn-translate:hover {
@@ -100,6 +100,3 @@ body{
 #about p{
     margin: 0;
 }
-
-/* TO DO */
-/* Make Responsive */

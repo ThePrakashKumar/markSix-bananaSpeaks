@@ -28,6 +28,3 @@ function clickHandler(){
 
 // Add event listner to the button
 button.addEventListener("click", clickHandler);
-
-// Add prevent default and make form element 
-// When translate button is pressed then maye be clear the text area
